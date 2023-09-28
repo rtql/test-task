@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('javascript', ['usersCount' => \App\Models\User::count()]);
+})->name('javascript');
+
+Route::get('/jquery', function () {
+    return view('jquery', ['usersCount' => \App\Models\User::count()]);
+})->name('jquery');
