@@ -1,4 +1,4 @@
-## Тестовое задание для DROPSALE
+## Тестовое задание для ********
 <p>composer install</p>
 <p>cp .env.example .env</p>
 <p>php artisan key:generate</p>
